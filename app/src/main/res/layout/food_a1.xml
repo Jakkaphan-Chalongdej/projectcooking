@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="200dp">
+        <ImageView
+                style="@style/AppTheme.imagefood"
+                android:background="@drawable/ic_tomkai"
+        />
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="230dp"
+
+    >
+        <TextView
+                style="@style/FoodTextViewStyle"
+                android:text="@string/tomkai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+        />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="350dp"
+    >
+        <TextView
+                style="@style/FoodTextViewStyle"
+                android:text="@string/uestomkai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+        />
+    </RelativeLayout>
+
+
+</RelativeLayout>

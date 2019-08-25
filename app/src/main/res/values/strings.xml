@@ -1,0 +1,7 @@
+
+<resources>
+    <string name="app_name">EasyCooking</string>
+    <string name="pageone">อาหารคาว</string>
+    <string name="pagetwo">ของหวาน</string>
+    <string name="pagethree">เครื่องดื่ม</string>
+</resources>
